@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: block;
+
+}
+.buddy{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-bottom: 0.5em;
+    background-image: url("https://res.cloudinary.com/folu/image/upload/v1586621893/survey_xls94l.jpg"), 
+    linear-gradient(rgba(39, 78, 185, 0.8), rgba(21, 96, 209, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    min-height: 100vh;
+    height: 20em;
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+
+}
+.headie{
+    text-align: center;
+    justify-content: center;
+}
+header{
+    /*text-align: center;*/
+    padding: 3em 0 1em 0;
+}
+h1{
+    color: white;
+    /*justify-content: center;
+    text-align: center;*/
+    font-weight: lighter;
+    line-height: 2em;
+}
+p{
+    font-family: monospace;
+    color: rgb(226, 214, 159);
+    padding: 0 4em;
+    font-size: 19px;
+}
+.formie{
+    background-color: rgba(3, 3, 15, .8);
+    width: 700px;
+    margin: 1em auto;
+    padding: 2em 3em;
+    border-radius: 3px;
+    /* overflow-y: auto; */
+}
+/*form{
+    
+    display: flex;
+    flex-direction: column;
+    overflow-y:auto:
+}*/
+/*.form-content{
+    color: white;
+    padding: ;
+    margin: ;
+}*/
+.former{
+    width: 100%;
+    margin: 7px 0 10px 0;
+
+}
+label{
+    color: white;
+    font-size: 1.2em;
+}
+.former input{
+    width: 100%;
+    padding: 12px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    margin: 7px 0 10px 0;
+    /*outline: none;*/
+}
+.role label{
+    font-size: 20px;
+    color: white;
+    padding: .6em 0;
+}
+select{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 20px 0 10px 0;
+    font-size: 17px;
+    color: rgb(112, 108, 108);
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+.rec{
+    padding: .5em 0;
+    margin: 2em 0;
+}
+.rec label{
+    font-size: 20px;
+    color: white;
+    padding: .6em 0;
+}
+.rec input{
+    padding-top: 20px;
+}
+.radi{
+    margin-top: 25px;
+}
+.radi2{
+    margin: -6rem 0 -4rem 0;
+}
+.rad{
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.2em;
+    font-style: normal;
+    margin-left: -3em;
+    margin-top: -1.3em;
+}
+.role2{
+    margin-top: -2em;
+    margin-bottom: 2em;
+}
+.checkbox{
+    padding: .7em 0 .5em 0;
+}
+span{
+    font-size: small;
+}
+.checkbox-in{
+    margin: 1em .3em 1em 0;
+
+}
+textarea{
+    width: 100%;
+    display: inline-block;
+    border: none;
+    margin: 1.5em 0 3em 0;
+    padding: 12px;
+}
+
+.submit{
+    background-color: #69da5d;
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+    padding: 13px;
+    margin: 7px 0 10px 0;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+@media (max-width:700px){
+    .buddy{
+        overflow-y: scroll;
+        width:100%;
+    }
+    .formie{
+        width: auto;
+    }
+}
